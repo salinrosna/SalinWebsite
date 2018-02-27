@@ -1,17 +1,97 @@
-html{
-  padding: 0px !important;
-}
+
 body{
     width: 100%;
-    margin-top:0px !important; 
+    font-size: 15px;
+    line-height: 1.8;
 }
 /* .padding-top-20{
     padding-top: 20px;
   } */
-  .link{
+.link{
     cursor: pointer;
-  }
-  .font{
-    font-size: 1.3em;
-    font-family:Cambria, Cochin, Georgia, Times, Times New Roman, serif
 }
+.font-white{
+  color:rgb(252, 250, 250);
+  font-family: 'Lato', sans-serif; 
+}
+.font{
+    color:black;
+    font-family: 'Lato', sans-serif;
+}
+.font-golden{
+  color:#C2973C;
+  font-family: 'Lato', sans-serif;
+}
+.font-size-10{
+  font-size: 10px;
+}
+.font-size-13{
+  font-size: 13px;
+}
+.font-size-15{
+  font-size: 15px;
+}
+.font-weight{
+ font-weight: 100;
+}
+.font-weight-300{
+  font-weight: 300;
+}
+.font-weight-700{
+  font-weight: 700;
+}
+.letter-spacing{
+  letter-spacing: 3px;
+}
+.letter-spacing-7{
+  letter-spacing: 7px;
+}
+.font-color-grey{
+  color: rgb(153, 153, 153);
+}
+.container{
+  width:80% !important;
+}
+.margin-padding-0{
+  margin: 0;
+  padding: 0;
+}
+.margin-top-100{
+  margin-top:100px;
+}
+.margin-left-200{
+  margin-left: 200px;
+}
+.margin-30{
+
+  margin:0 12px 0px 12px;
+}
+.padding-30{
+  padding: 30px;
+}
+.margin-bottom-20{
+  margin-bottom: 20px;
+}
+.border{
+  border:2px solid #C2973C;
+}
+.border-bottom{
+  border-bottom:3px solid #C2973C
+}
+.border-left{
+  border-left:2px solid #C2973C;
+}
+
+.padding-10{
+  padding:10px;
+}
+.background-golden{
+  background-color: #C2973C;
+  width:120px;
+  text-align: center;
+  color: white;
+}
+.align-center{
+  text-align: center
+}
+

@@ -6,10 +6,6 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { NavComponent } from './nav/nav.component';
 import { ResumeComponent } from './resume/resume.component';
-import { AboutmeComponent } from './aboutme/aboutme.component';
-import { ExperienceComponent } from './experience/experience.component';
-import { PortfolioComponent } from './portfolio/portfolio.component';
-import { SummaryComponent } from './summary/summary.component';
 
 
 
@@ -19,10 +15,6 @@ import { SummaryComponent } from './summary/summary.component';
     HomeComponent,
     NavComponent,
     ResumeComponent,
-    AboutmeComponent,
-    ExperienceComponent,
-    PortfolioComponent,
-    SummaryComponent
   ],
   imports: [
     BrowserModule,

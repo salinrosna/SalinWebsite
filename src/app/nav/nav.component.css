@@ -1,62 +1,45 @@
 .navigbar{
 padding: 0px;
 margin: 0px;
-position: fixed;
 width: 100%;
 overflow: hidden;
-background-color:black; 
+background-color:rgba(26, 25, 25, 0.952); 
 opacity:1;
 }
 .navigation{
-
+  height:100%;
+  width:75%;
+  margin-left:auto;
+  margin-right:auto;
 }
-
+.navig-left{
+  float:left;
+  margin: 0;
+  padding:10px;
+}
+.navig-left li{
+  list-style:none;
+}
 .navig{
   list-style: none;
+  float: right; 
+   margin: 0px;
+   padding: 0px;
   
 }
-.navigbar li{
-  width: 15%;
+.navig li{
+  width: 50px;
   display: inline-block;
-  padding-top:10px; 
+  padding:5px; 
   
 }
-a{
-  font-family: Papyrus;
-  font-size: 17px;
-  color:white;;
-}
-#progress-bar {
-  position: fixed;
-  height: 7vh;
-  /*background: #444;*/
-  top: 0;
-  z-index: 9000;
-  margin: 0;
-  z-index: -1;
-}
+@media screen and (max-width: 500px){
 
-#progress-items-container {
-  position: fixed;
-  font-size: 3vmin;
-  height: 5vh;
-  top: 0;
-  width: 100%;
-  z-index: -1;
-  margin: 0 auto;
-  padding: 0;
-  color: white;
-  background-color: rgba(255, 255, 255, 0.2);
-  /*border: 1px solid black;*/
+.navig-left{
+  margin-top: 3px;
+  padding-bottom:7px;
 }
-
-.progress-item {
-  text-align: center;
-  padding: 0;
-  margin: 0;
-  width: 19vw;
-  text-shadow: 1px 1px 2px gray;
-  /*border: 1px solid black;*/
-  display: inline-block;
+.navig-left span{
+  display: none;
 }
- 
+}

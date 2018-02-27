@@ -1,12 +1,8 @@
 .navigation{
   text-align: center;
-  z-index: 999999;
+  height: 40px;
   margin-top:0px;
-  z-index: 9000;; 
-  }
-  .resume-button{
-    position: relative;
-    top: 510px;
-    left: 45%;
+  z-index: 9000;
+  
   }
  

@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
-declare var $: any;
-import * as skrollr from 'skrollr/src/skrollr';
+// declare var $: any;
+// import * as skrollr from 'skrollr/src/skrollr';
 
 
 @Component({
@@ -10,14 +10,13 @@ import * as skrollr from 'skrollr/src/skrollr';
 })
 export class AppComponent {
   title = 'app';
-  
   constructor() { }
 
   ngOnInit() {
-    var skr = skrollr.init();
+    // var skr = skrollr.init();
   }
- public viewresume = ()  =>{
-   debugger;
-   var changepage = true;
- }
+//  public viewresume = ()  =>{
+//    debugger;
+//    var changepage = true;
+//  }
 }
