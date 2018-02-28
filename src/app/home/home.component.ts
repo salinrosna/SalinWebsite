@@ -10,9 +10,12 @@ import * as skrollr from 'skrollr/src/skrollr';
 })
 export class HomeComponent implements OnInit {
 
+  title='SALIN ROSNA';
+  heroes = ['Windstorm', 'Bombasto', 'Magneta', 'Tornado'];
   
-  
-  constructor() { }
+  constructor() {
+
+   }
 
   ngOnInit() {
     if (window.innerWidth >= 567){

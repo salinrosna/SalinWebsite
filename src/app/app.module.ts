@@ -17,6 +17,7 @@ import { ResumeComponent } from './resume/resume.component';
     ResumeComponent,
   ],
   imports: [
+    
     BrowserModule,
     RouterModule.forRoot([
       {
@@ -32,6 +33,7 @@ import { ResumeComponent } from './resume/resume.component';
       } 
     ])
   ],
+  
   providers: [],
   bootstrap: [AppComponent]
 })

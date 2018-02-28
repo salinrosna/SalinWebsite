@@ -13,7 +13,7 @@
   </div>
   <div class="header">
     <div class="header-border-top"></div>
-      <span class="font-white font-weight-300 letter-spacing-7">SALIN ROSNA</span>
+      <span class="font-white font-weight-300 letter-spacing-7">{{title}}</span>
     <div class="header-border-bottom"></div>
       
   </div>
@@ -52,16 +52,34 @@
             </a>
           </span>
         </li>
-        <div class="resposive-nav">
-          <a href="#home" class="resp-name font letter-spacing">SALIN ROSNA </a>
-          <a class="link resp-list font letter-spacing">
-            <i class="fa fa-bars">            
-            </i>
-          </a>
-        </div>
+        
       </ul>
     </nav>
-
+    <div class="resposive-nav">
+        <a href="#home" class="resp-name font letter-spacing">SALIN ROSNA </a>
+        <div class="dropdown">
+            <a class="link resp-list font letter-spacing dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria- expanded="true">
+                <i class="fa fa-bars"></i>  
+            </a>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenu1">
+            <ul *ngFor="let hero of heroes" >
+             <li> <a class="font letter-spacing font-size-13" href="#aboutme">ABOUT ME</a></li>
+             <li> <a class="font letter-spacing font-size-13" href="#work">EXPERIENCE</a></li>
+             <li> <a class="font letter-spacing font-size-13" href="#portfolio">PORTFOLIO</a></li>
+             <li> <a class="font letter-spacing font-size-13" href="#connect">CONNECT</a></li>
+            </ul>
+          </div>
+          </div>
+        <!-- <a class="link resp-list font letter-spacing">
+          <i class="fa fa-bars">  
+              <ul>
+                  <li *ngFor="let hero of heroes">
+                    <a href="">{{ hero }}</a>
+                  </li>
+                </ul>          
+          </i>
+        </a> -->
+      </div>
 </div>
 <div class="aboutme" id="aboutme">
   <div class="container" id="aboutme">
@@ -89,7 +107,7 @@
           </li>
           <li>
             <strong>Address:</strong>
-            <span class="font-color-grey"> 14A, Perth Street, Ngaio, Wellington</span>
+            <span class="font-color-grey">Ngaio, Wellington</span>
           </li>
         </ul>
         <!-- <div class="footer-social-container"> -->
@@ -115,6 +133,7 @@
                 </a>
               </li>
             </ul>
+            
           <!-- </div> -->
       </div>
     </div>
@@ -259,7 +278,7 @@
               </li>
               <li>
                 <strong>Address:</strong>
-                <span class="font-color-grey"> 14A, Perth Street, Ngaio, Wellington</span>
+                <span class="font-color-grey">Ngaio, Wellington</span>
               </li>
             </ul>
     </div>
